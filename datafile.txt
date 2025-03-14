@@ -1,0 +1,20 @@
+
+
+
+
+
+To create a file in Git using the command line, one can utilize the touch command followed by
+the desired filename and extension. For example, to create a text file named "newfile.txt", the command would be:
+Code
+
+touch newfile.txt
+
+This command will create an empty file. To add content to the file, one can use the echo command:
+Code echo "some text" > newfile.txt After creating and modifying the file, it needs to be added to the Git repository using the git add command:
+Code
+
+git add newfile.txt
+Finally, the changes can be committed with a descriptive message using the git commit command:Code
+
+git commit -m "Add newfile.txt"
+
