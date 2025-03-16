@@ -1,0 +1,4 @@
+
+
+Locate your private key file. The key used to launch this instance is CloudKeypare25.pem
+Run this command, if necessary, to ensure your key is not publicly viewable.
